@@ -1,0 +1,17 @@
+[
+  {
+    "navLabel": "Home",
+    "navTrigger": "home",
+    "navUrl": "/"
+  },
+  {
+    "navLabel": "Patterns",
+    "navTrigger": "parrerns",
+    "navUrl": "/patterns/"
+  },
+  {
+    "navLabel": "Templates",
+    "navTrigger": "templates",
+    "navUrl": "/templates/templates.html"
+  }
+]

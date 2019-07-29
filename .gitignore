@@ -1,0 +1,22 @@
+# mac stuff
+.DS_Store
+
+# node stuff
+node_modules/
+package-lock.json
+
+# public site
+dist/
+src/lib/theme-pages/
+
+
+
+# don't sync copied files from Library
+/library/components/includes
+!/library/components/includes/lib
+
+/library/components/layouts
+!/library/components/layouts/lib
+
+library/pages
+!/library/pages/default

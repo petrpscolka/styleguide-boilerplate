@@ -1,0 +1,55 @@
+
+// Icons only for living style guide
+
+svg.ico {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.lsg-ico-example {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  // outline: 1px solid red;
+  svg.ico {
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+    transition: all .1s ease-in-out;
+  }
+  .lsg-ico-example_text {
+    position:  absolute;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+  }
+  div.text-center {
+    color: rgba(0, 0, 0, .4);
+    font-size: 10px;
+  }
+  &:hover {
+    div.text-center {
+      color: rgba(0, 0, 0, 1);
+    }
+    svg.ico {
+      color: white;
+      background-color: #333;
+      width: 3em;
+      height: 3em;
+      width: 70px;
+      height: 70px;
+      top: 15px;
+      left: 15px;
+    }
+    div.text-center {
+      color: black;
+    }
+  }
+}

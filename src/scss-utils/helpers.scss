@@ -1,0 +1,13 @@
+
+
+.bg-gray {
+  background-color: $gray;
+}
+
+
+.decorator {
+  box-shadow: inset 1px 1px 0px #7b00ff, inset -1px -1px 0px #7b00ff;
+  background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0) 27px, rgba(0, 0, 0, 0.1) 28px, rgba(0, 0, 0, 0) 28px, rgba(0, 0, 0, 0) 55px, rgba(0, 0, 0, 0.1) 56px, rgba(0, 0, 0, 0) 56px, rgba(0, 0, 0, 0) 83px, rgba(0, 123, 255, 0.5) 84px, rgba(0, 0, 0, 0) 84px, rgba(0, 0, 0, 0) 111px, rgba(0, 123, 255, 0.5) 112px), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 6px, rgba(0, 0, 0, 0.1) 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 13px, rgba(0, 0, 0, 0.2) 14px, rgba(0, 0, 0, 0) 14px, rgba(0, 0, 0, 0) 20px, rgba(255, 0, 225, 0.35) 21px, rgba(0, 0, 0, 0) 21px, rgba(0, 0, 0, 0) 27px, rgba(0, 123, 255, 0.75) 28px);
+  background-size: 112px 100%, 100% 28px;
+  background-position: 0 0;
+}

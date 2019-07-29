@@ -1,0 +1,33 @@
+---
+title: "Icons"
+permalink: "patterns/{{ page.fileSlug }}.html"
+---
+
+{% extends "layouts/base.njk" %}
+{% set activeSection = "patterns" %}
+
+{% block content %}
+
+
+  <h1>Icons</h1>
+
+  {% set icons = [
+      "arrow-alt-circle-down",
+    ]
+  %}
+
+  {% for ico in icons %}
+    <div class="lsg-ico-example">
+      <div>
+        <svg class="ico">
+          <use xlink:href="/assets/icons/icons.svg#{{ico}}"></use>
+        </svg>
+      </div>
+      <div class="lsg-ico-example_text small text-center">
+        {{ico}}
+      </div>
+    </div>
+  {% endfor %}
+
+
+{% endblock %}
